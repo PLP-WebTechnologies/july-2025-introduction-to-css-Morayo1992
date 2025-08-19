@@ -1,25 +1,52 @@
+/* General page styling */
 body {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
 }
 
-header, footer {
-  background: #007acc;
-  color: white;
-  text-align: center;
-  padding: 1em;
+/* Header styling */
+header {
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
-section {
-  padding: 20px;
+/* Main content layout */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
 }
 
-.box {
-  width: 200px;
-  padding: 20px;
-  margin: 20px auto;
-  border: 5px solid #333;
-  background: #e0e0e0;
-  text-align: center;
+/* Card box demonstrating CSS box model */
+.card {
+    background-color: #fff;
+    border: 2px solid #ccc;   /* border */
+    padding: 20px;            /* padding */
+    margin-bottom: 20px;      /* margin */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Features section */
+.features ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.features li {
+    margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
 }
